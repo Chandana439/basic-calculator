@@ -1,0 +1,79 @@
+:root {
+  --page-bg: rgb(97, 93, 93);
+  --gray-btn-bg: rgb(22, 21, 21);
+  --orange-btn-bg: rgb(254, 160, 10);
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--page-bg);
+}
+
+.calculator {
+  position: absolute;
+  padding: 10px;
+  right: 550px;
+  top: 140px;
+  width: 350px;
+  height: 500px;
+  border-radius: 50px;
+  box-shadow: 0 0 20px 2px whitesmoke;
+}
+
+.output {
+  color: white;
+  font-size: 45px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  margin-left: 45px;
+}
+
+.initial {
+  color: white;
+  font-size: 45px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  margin-left: 45px;
+}
+
+.col1 {
+  margin-left: 35px;
+}
+
+.rcol {
+  margin-right: 8px;
+}
+
+.row1 {
+  margin-left: 105px;
+}
+button {
+  color: white;
+  border: none;
+  border-radius: 80px;
+  height: 60px;
+  width: 60px;
+  font-size: 24px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.spl-color {
+  background-color: gray;
+  color: white;
+  font-size: 26px;
+}
+
+.gray-button {
+  background-color: var(--gray-btn-bg);
+  color: white;
+}
+
+.orange-button {
+  background-color: var(--orange-btn-bg);
+  color: white;
+  font-size: 26px;
+}
+
+.clear-button {
+  font-size: 17px;
+}
